@@ -1,0 +1,18 @@
+"""
+=========================================================
+Apriori Algorithm for Market Basket Analysis
+=========================================================
+
+...
+"""
+
+# STEP 1 - Import Libraries
+# -------------------------
+# We use pandas for data manipulation.
+# mlxtend provides an efficient implementation
+# of the Apriori algorithm and association rule generation.
+
+import pandas as pd
+from mlxtend.frequent_patterns import apriori, association_rules
+
+...
